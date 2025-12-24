@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "copperswordv2",
+	"version": "${version}",
+	"name": "CopperSwordv2",
+	"description": "This is a revamp of coppersword",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/copperswordv2/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.missing.copperswordv2.CopperSwordv2"
+		],
+		"fabric-datagen": [
+			"net.missing.copperswordv2.CopperSwordv2DataGenerator"
+		],
+		"client": [
+			"net.missing.copperswordv2.CopperSwordv2Client"
+		]
+	},
+	"mixins": [
+		"copperswordv2.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
