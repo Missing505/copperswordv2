@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "ICI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "C": {
+      "item": "copperswordv2:bean_core"
+    }
+  },
+  "result": {
+    "id": "copperswordv2:test_block",
+    "count": 1
+  }
+}

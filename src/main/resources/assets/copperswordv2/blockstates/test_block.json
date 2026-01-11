@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "copperswordv2:block/test_block"
+    }
+  }
+}

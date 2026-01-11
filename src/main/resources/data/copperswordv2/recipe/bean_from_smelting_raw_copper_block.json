@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "minecraft:raw_copper_block"
+  },
+  "result": {
+    "id": "copperswordv2:bean"
+  },
+  "experience": 0.5,
+  "cookingtime": 400
+}
